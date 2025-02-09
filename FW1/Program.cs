@@ -29,6 +29,6 @@ Console.ReadLine();
 
 static void OnCreated(object sender, FileSystemEventArgs e)
 {
-    string value = $"Created: {e.FullPath}";
+    string value = $"Created: {e.FullPath}";    
     Console.WriteLine(value);
 }
