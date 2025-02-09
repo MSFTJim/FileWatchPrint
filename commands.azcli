@@ -1,0 +1,1 @@
+dotnet new console -n FW1 -o ./FW1
