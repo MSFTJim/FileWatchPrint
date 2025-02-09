@@ -1,1 +1,3 @@
 dotnet new console -n FW1 -o ./FW1
+
+dotnet new worker --name FWWorker --output ./FWWorker
