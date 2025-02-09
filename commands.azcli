@@ -1,3 +1,11 @@
 dotnet new console -n FW1 -o ./FW1
 
 dotnet new worker --name FWWorker --output ./FWWorker
+
+# add config support
+dotnet add package Microsoft.Extensions.Configuration 
+dotnet add package Microsoft.Extensions.Configuration.Json
+dotnet add package Microsoft.Extensions.Configuration.EnvironmentVariables
+dotnet add package Microsoft.Extensions.Configuration.UserSecrets
+dotnet add package Microsoft.Extensions.Hosting 
+
